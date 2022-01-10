@@ -27,3 +27,5 @@ footer: 'Technical Excellence 101 / Unit 3. Code Review и Парная рабо
 Время: 15 минут.
 
 ---
+# Ошибка
+Вы должны были получить ошибку
