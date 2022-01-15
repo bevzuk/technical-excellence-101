@@ -40,12 +40,10 @@ remote: error: At least 1 approving review is required by reviewers with write a
 # Упражнение. Вмержить изменения в master через Pull Request
 1. Запушить код в свою ветку
 2. Создать Pull Request
-3. Получить approve (одобрение) от нужного числа ревьюверов
-4. Смержить Pull Request в master
 
 ---
 <!-- _class: invert -->
-# 1/4. Автор: Запушить код в свою ветку
+# 1/2. Автор: Запушить код в свою ветку
 1. Создаём ветку
    * *git branch <имя ветки>*
    * *git checkout <имя ветки>*
@@ -59,48 +57,91 @@ remote: error: At least 1 approving review is required by reviewers with write a
 
 ---
 <!-- _class: invert -->
-# 2/4. Автор: Создать Pull Request
+# 2/2. Автор: Создать Pull Request
 
 ![](Images/Create%20pull%20request.png)
 
 ---
 <!-- _class: invert -->
-# 2/4. Автор: Создать Pull Request
+# 2/2. Автор: Создать Pull Request
 
 ![](Images/Create%20pull%20request%202.png)
 
 ---
 <!-- _class: invert -->
-# 2/4. Автор: Создать Pull Request
+# 2/2. Автор: Создать Pull Request
 
 ![](Images/Create%20pull%20request%203.png)
 
 ---
+# Правила Code Review
+
+---
+# Плохо
+* Оценочное суждение
+* Критика в адрес автора
+* Безапелляционное утверждение
+* Не информативный комментарий
+![bg height:500px right:50%](Images/Code%20review%201.png)
+
+---
+# Хорошо
+* Лаконично
+* По существу
+* Дружелюбно
+* Со ссылками на источники
+![bg height:500px right:50%](Images/Code%20review%202.png)
+
+---
+# Хвалите
+* "Отличная работа!"
+* "Красавчик!"
+* "Круто придумано, я бы не догадался"
+
+---
 <!-- _class: invert -->
-# 3. Ревьювер: Получить approve (одобрение)
+# Упражнение. Исправить замечания и вмержить PR в master
+1. Ревьювер: проверить PR и написать коментарии
+1. Автор: исправить замечания
+1. Ревьювер: заапрувить PR
+1. Автор: Смержить Pull Request в master
+
+
+---
+<!-- _class: invert -->
+# 1/4. Ревьювер: Откройте PR
 ![height:500px](Images/Review%20pull%20request%201.png)
 
 ---
 <!-- _class: invert -->
-# 3. Ревьювер: Оставьте комментарии
+# 1/4. Ревьювер: Оставьте комментарии
 ![height:500px](Images/Comment%20pull%20request.png)
 
 ---
 <!-- _class: invert -->
-# 3. Автор: Исправьте замечания
+# 2/4. Автор: Исправьте замечания
+* Прочитайте замечания в вашем Pull Request
+* Исправьте замечания в VS Code
+* Закомитьте и запушьте исправления
+  * Ваши исправления автоматически добавятся в Pull Request
 
 --- 
 <!-- _class: invert -->
-# 3. Ревьювер: Заапрувьте Pull Request
-Если вас все устраивает, выберите Approve.
-Если остались замечания — Request Changes.
+# 3/4. Ревьювер: Заапрувьте Pull Request
+* Проверьте исправление замечаний
+* Если вас все устраивает, выберите Approve (одобрить)
+* Если остались замечания — опишите и выберите Request Changes (запросить изменения)
 
 ![bg height:500px right:50%](Images/Approve%20pull%20request.png)
 
 ---
 <!-- _class: invert -->
-# 4. Автор: Смержьте Pull Request в master
+# 4/4. Автор: Смержьте Pull Request в master
 * Merge pull request
 * Delete branch
 ![height:500px](Images/Merge%20pull%20request.png)
 
+---
+# Дебриф
+* Какую пользу вы видите от Code Review?
+* Чем мы за это платим?
