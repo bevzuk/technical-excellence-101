@@ -61,3 +61,21 @@ remote: error: At least 1 approving review is required by reviewers with write a
 <!-- _class: invert -->
 # 2/4. Создать Pull Request
 
+![](Images/Create%20pull%20request.png)
+
+---
+<!-- _class: invert -->
+# 2/4. Создать Pull Request
+
+![](Images/Create%20pull%20request%202.png)
+
+---
+<!-- _class: invert -->
+# 2/4. Создать Pull Request
+
+![](Images/Create%20pull%20request%203.png)
+
+---
+<!-- _class: invert -->
+# 3. Получить approve (одобрение)
+![height:500px](Images/Review%20pull%20request%201.png)
