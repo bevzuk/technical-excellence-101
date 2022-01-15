@@ -79,3 +79,9 @@ remote: error: At least 1 approving review is required by reviewers with write a
 <!-- _class: invert -->
 # 3. Получить approve (одобрение)
 ![height:500px](Images/Review%20pull%20request%201.png)
+
+---
+<!-- _class: invert -->
+# 3. Оставьте комментарии
+![height:500px](Images/Comment%20pull%20request.png)
+
