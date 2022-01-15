@@ -45,7 +45,7 @@ remote: error: At least 1 approving review is required by reviewers with write a
 
 ---
 <!-- _class: invert -->
-# 1/4. Запушить код в свою ветку
+# 1/4. Автор: Запушить код в свою ветку
 1. Создаём ветку
    * *git branch <имя ветки>*
    * *git checkout <имя ветки>*
@@ -59,29 +59,48 @@ remote: error: At least 1 approving review is required by reviewers with write a
 
 ---
 <!-- _class: invert -->
-# 2/4. Создать Pull Request
+# 2/4. Автор: Создать Pull Request
 
 ![](Images/Create%20pull%20request.png)
 
 ---
 <!-- _class: invert -->
-# 2/4. Создать Pull Request
+# 2/4. Автор: Создать Pull Request
 
 ![](Images/Create%20pull%20request%202.png)
 
 ---
 <!-- _class: invert -->
-# 2/4. Создать Pull Request
+# 2/4. Автор: Создать Pull Request
 
 ![](Images/Create%20pull%20request%203.png)
 
 ---
 <!-- _class: invert -->
-# 3. Получить approve (одобрение)
+# 3. Ревьювер: Получить approve (одобрение)
 ![height:500px](Images/Review%20pull%20request%201.png)
 
 ---
 <!-- _class: invert -->
-# 3. Оставьте комментарии
+# 3. Ревьювер: Оставьте комментарии
 ![height:500px](Images/Comment%20pull%20request.png)
+
+---
+<!-- _class: invert -->
+# 3. Автор: Исправьте замечания
+
+--- 
+<!-- _class: invert -->
+# 3. Ревьювер: Заапрувьте Pull Request
+Если вас все устраивает, выберите Approve.
+Если остались замечания — Request Changes.
+
+![bg height:500px right:50%](Images/Approve%20pull%20request.png)
+
+---
+<!-- _class: invert -->
+# 4. Автор: Смержьте Pull Request в master
+* Merge pull request
+* Delete branch
+![height:500px](Images/Merge%20pull%20request.png)
 
