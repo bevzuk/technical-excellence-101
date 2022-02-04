@@ -14,3 +14,5 @@ footer: 'Technical Excellence 101 / Unit 4. Autotests'
 1. Сдвиг влево
 1. Тестировщик vs QA
 1. Дебриф
+
+---
