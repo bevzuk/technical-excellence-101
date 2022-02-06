@@ -155,3 +155,9 @@ git commit -m "Описание изменений"*
 1. Переключитесь обратно в вашу ветку
     * *git checkout <имя вашей ветки>*
 1. Откройте сказку и убедитесь, что ваши изменения на месте. Выдохните.
+
+---
+# Материалы
+* [tproger.ru: Введение в Git: от установки до основных команд](https://tproger.ru/translations/beginner-git-cheatsheet/)
+* [hexlet: Бесплатный курс "Введение в Git"](https://ru.hexlet.io/courses/intro_to_git)
+* [Книга Pro Git](https://git-scm.com/book/ru/v2)

@@ -194,3 +194,16 @@ TBD - практика, когда работа всех команд ведет
 * В чем вы видите пользу TBD?
 * В чем вы видите сложность применения TBD?
 
+---
+# Домашнее задание
+Спросите у вашей команды:
+* Какая у нас модель ветвления и почему?
+* Как долго живут ветки?
+* Как много времени команда тратит на разрешение merge конфликтов?
+
+Посчитайте статистику и покажите команде
+
+---
+# Материалы
+* [Version Control for Multiple Agile Teams - Henrik Kniberg](https://www.infoq.com/articles/agile-version-control/)
+* [Trunk Based Development](https://trunkbaseddevelopment.com)

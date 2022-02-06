@@ -202,3 +202,30 @@ remote: error: At least 1 approving review is required by reviewers with write a
 * Какие преимущества парной работы вы испытали?
 * С какими сложностями вы столкнулись во время парной работы?
 * Какие возможности для парной работы вы видите в своей команде?
+
+---
+# Домашнее задание
+
+1. Дайте обратную связь людям, которые создали Pull Request
+2. Получите обратную связь, исправьте замечания и поблагодарите участников
+3. Спросите у вашей команды:
+* Как часто master билд красный?
+* Насколько большие пулл реквесты (# строк кода)?
+* Как долго висят pull requests?
+* Как команда относится к парному программированию?
+
+Посчитайте статистику и покажите команде
+
+---
+# Материалы
+* [Как заставить ревьювера вашего кода буквально влюбиться в вас - перевод статьи Майкла Линча](https://technical-excellence.ru/wiki/CodeReviewLoveForAuthors.html)
+* [Парное программирование: Сергей Баранов](http://agilemindset.ru/парное-программирование/)
+* [On Pair Programming - Birgitta Böckeler](https://martinfowler.com/articles/on-pair-programming.html)
+* [Llewellyn's strong-style pairing: Llewellyn Falco](https://llewellynfalco.blogspot.com/2014/06/llewellyns-strong-style-pairing.html).
+* [Mob programming and strong-style pairing: Emily Bache](http://coding-is-like-cooking.info/2016/09/mob-programming-strong-style-pairing/).
+* [Pair programming: Marek Kusmin](http://www.kusmin.eu/wiki/index.php/Pair_Programming).
+* [Pairing techniques: Roger Almeida](http://roger-almeida.blogspot.co.uk/2010/04/pairing-techniques.html).
+* [The Pomodoro Technique: Francesco Cirillo](http://baomee.info/pdf/technique/1.pdf).
+* [Rethinking pair programming: Sandro Manusco](http://codurance.com/2015/03/15/rethinking-pair-programming/).
+* [Teddy bear pair programming: Adrian Bolboacă](http://blog.adrianbolboaca.ro/2012/12/teddy-bear-pair-programming/).
+* [What is pair programming?: Adrian Bolboacă](http://blog.adrianbolboaca.ro/2013/09/what-is-pair-programming/).

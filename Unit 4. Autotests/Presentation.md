@@ -16,3 +16,5 @@ footer: 'Technical Excellence 101 / Unit 4. Autotests'
 1. Дебриф
 
 ---
+# Материалы
+* [Статья на habr "Что такое качество. Разбираемся в иерархии терминов «QA», «QC» и «тестирование»"](https://habr.com/ru/company/rostelecom/blog/647963/)
