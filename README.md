@@ -20,38 +20,27 @@
 * Continuous Delivery (непрерывная поставка)
 
 ## Подготовка
-1. Установите [Visual Studio Code](https://code.visualstudio.com/download)
+1. Установите [Visual Studio Code](https://code.visualstudio.com/download) (aka VS Code)
 2. Установите [git](https://git-scm.com/downloads)
 3. Проверьте, что git работает
-    * Откройте Terminal в MacOS или Git Bash в Windows
+    * Откройте Terminal в MacOS или Git Bash в Windows (в дальнейшем, если не узказано иное, команды выполняются в Terminal в MacOS и в Git Bash в Windows)
     * Выполните команду `git --version`
-    * Если вы увидели вывод `git version 2.23.0`, значит все в порядке, git установлен. Числа могут быть другими.
+    * Если вы увидели вывод `git version ...`, значит все в порядке, git установлен.
 4. Создайте папку, в которой вы будете работать, например `Projects`  
-    Windows:
-      ```
-      cd %USERPROFILE%
-      mkdir Projects
-      cd Projects
-      ```  
-    MacOS:  
       ```
       cd ~
       mkdir Projects
       cd Projects
       ```  
 5. Склонируйте репозиторий, выполнив команду   
-`git clone https://github.com/bevzuk/technical-excellence-101.git`  
-или (если у вас добавлен [SSH сертификат](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account))   
-`git clone git@github.com:bevzuk/technical-excellence-101.git`  
-или (если у вас установлен [GitHub CLI](https://cli.github.com))  
-`gh repo clone bevzuk/technical-excellence-101`
+`git clone https://github.com/bevzuk/technical-excellence-101.git`
 6. Откройте локальный репозиторий в VS Code
     * Запустите VS Code
     * Откройте папку Projects/technical-excellence-101
       * Меню File -> Open Folder ... или 
       * Open ... на главном экране
       * Выберите папку Projects/technical-excellence-101
-      * Нажмите Open
+      * Нажмите Open или Select Folder
         ![](images/Open%20folder.png)
     * В левой панельке Explorer вы должны увидеть структуру проекта
       ![](images/Project%20structure.png)
