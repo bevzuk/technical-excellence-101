@@ -91,11 +91,17 @@ Kent Beck, Extreme Programming Explained
    def test_has_subheader_wolf(html):
     assert '<h3>3.2 Волк</h3>' in html
    ```
-6. Закомитьте и запушьте ваш код
+6. Закомитьте и запушьте тест
    ```git add .```
    ```git commit -m "Добавил тест на подзаголовок с волком"```
-   ```git push```
-   
+   ```git push -u origin feature/group1```
+7. Проверьте, что CI билд упал
+   * Откройте [https://github.com/bevzuk/technical-excellence-101/actions](https://github.com/bevzuk/technical-excellence-101/actions)
+8. Исправьте текст сказки
+9. Запустите тесты локально, убедитесь что они зеленые
+   ```make test```
+10. Закомитьте и запушьте изменения в сказке
+11. Убедитесь, что CI билд зеленый
 
 ---
 ![bg height:90%](Images/CI%20theatre.png)
