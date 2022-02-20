@@ -78,6 +78,7 @@ Kent Beck, Extreme Programming Explained
 
 
 ---
+<!-- _class: invert -->
 # Упражнение. Найти ошибку в HTML, написать тест и исправить
 1. Возьмите последнюю версию ветки master
    ```git checkout master```
@@ -86,6 +87,11 @@ Kent Beck, Extreme Programming Explained
    ```git checkout -b feature/group1```
 3. Откройте файл *Unit 5. CICD/Kolobok.md*
 4. Найдите ошибку в файле
+
+---
+<!-- _class: invert -->
+# Упражнение. Найти ошибку в HTML, написать тест и исправить
+
 5. Добавьте тест для проверки ошибки в HTML файле, например
    ```python
    def test_has_subheader_wolf(html):
@@ -97,11 +103,29 @@ Kent Beck, Extreme Programming Explained
    ```git push -u origin feature/group1```
 7. Проверьте, что CI билд упал
    * Откройте [https://github.com/bevzuk/technical-excellence-101/actions](https://github.com/bevzuk/technical-excellence-101/actions)
+
+---
+<!-- _class: invert -->
+# Упражнение. Найти ошибку в HTML, написать тест и исправить
 8. Исправьте текст сказки
 9. Запустите тесты локально, убедитесь что они зеленые
    ```make test```
 10. Закомитьте и запушьте изменения в сказке
 11. Убедитесь, что CI билд зеленый
+
+---
+<!-- _class: invert -->
+# Упражнение. Найти ошибку в HTML, написать тест и исправить
+12. Сделайте merge вашей ветки в master
+    ```git checkout master```
+    ```git pull```
+    ```git merge feature/group1```
+13. Исправьте конфликты (если есть)
+14. Запушьте изменения в master
+   ```git add .```
+   ```git commit -m "Merge feature/group1 -> master"```
+   ```git push```
+15. Убедитесь, что CI билд зеленый
 
 ---
 ![bg height:90%](Images/CI%20theatre.png)
