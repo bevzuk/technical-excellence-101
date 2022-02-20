@@ -7,7 +7,7 @@ clear:
 	mkdir -p ./build
 
 build: setup clear
-	markdown2 Kolobok.md >> ./build/Kolobok.html
+	markdown2 Kolobok.md > ./build/Kolobok.html
 	cat ./build/Kolobok.html
 
 lint:
