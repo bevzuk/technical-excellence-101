@@ -128,6 +128,12 @@ Kent Beck, Extreme Programming Explained
 15. Убедитесь, что CI билд зеленый
 
 ---
+# Дебриф
+* Как CI меняет поведение разработчиков?
+* Почему важно, чтобы CI билд был быстрый?
+* Почему важно, чтобы CI бидд был почти всегда зеленый?
+* Что должна делать команда, если CI билд красный?
+---
 # Какие проблемы решает CI?
 ![height:90%](Images/CI%20solutions.png)
 
@@ -139,6 +145,12 @@ Kent Beck, Extreme Programming Explained
 
 ---
 ![bg height:90%](Images/CI%20Dont.png)
+
+---
+![bg height:90%](Images/CD.png)
+
+---
+![bg height:90%](Images/CD%20pipeline.png)
 
 ---
 # Домашнее задание
