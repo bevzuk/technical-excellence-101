@@ -20,6 +20,3 @@ def html(change_test_dir):
 def test_has_header(html):
     assert '<h1>Сказка про колобка</h1>' in html
 
-
-def test_has_subheader_wolf(html):
-    assert '<h3>3.2 Волк</h3>' in html
