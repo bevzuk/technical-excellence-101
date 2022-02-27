@@ -7,11 +7,9 @@ footer: 'Technical Excellence 101 / Unit 1. Source Control'
 # Unit 1. Source Control
 ## Схема занятия
 1. Команды git
-3. Ветки
-2. Упражнение на git branch/add/commit/push
-4. Merge
-5. Упражнение на merge
-6. Дебриф
+2. Ветки
+3. Упражнение на git branch/add/commit/push
+4. Дебриф
 
 ---
 # Что мы делаем с документами?

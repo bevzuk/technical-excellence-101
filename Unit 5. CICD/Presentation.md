@@ -7,15 +7,14 @@ footer: 'Technical Excellence 101 / Unit 5. CI/CD'
 # Unit 5. CI/CD
 ## Схема занятия
 1. Continuous Integration
-2. CI Theatre
-3. Dos / Dont's
-4. Упражнение. Совместное редактирование сказки
+2. Упражнение. Написать тест и исправить ошибку в HTML
+3. CI Theatre
+4. CI Dos / Dont's
 5. Continuous Delivery
 6. Continuous Deployment
 7. Пример CD пайплайна
 8. DORA метрики
-9. DevOps
-10. Дебриф
+9. Дебриф
 
 ---
 ![bg height:100%](Images/Work%20without%20CI.jpg)
@@ -153,9 +152,13 @@ Kent Beck, Extreme Programming Explained
 ![bg height:90%](Images/CD%20pipeline.png)
 
 ---
+![bg height:90%](Images/DORA%20metrics.png)
+
+---
 # Домашнее задание
 1. Пройдите тест "Есть ли у нас CI?" с командой
 2. Поисследуйте, есть ли в вашей команде признаки пародии на CI
 3. Нарисуйте основные шаги CI билда вашей команды и сколько времени занимает каждый шаг
 4. Обсудите с командой как сократить время билда до 10 минут
+5. Посчитайте DORA метрики вашей команды
   

@@ -94,12 +94,11 @@
 
 ### Модуль 5. Continuous Integration & Continuous Deployment (CI/CD)
 1. Что такое Continuous Integration
-2. Как распознать CI Theatre
-3. CI Do/Don't
-4. Упражнение. Исправить ошибку в заголовке
+2. Упражнение. Исправить ошибку в заголовке HTML сказки
+3. Как распознать CI Theatre
+4. CI Do/Don't
 5. Continous Delivery и Continuous Deployment
 6. Как устроен Deployment Pipeline
-7. Типичные ошибки построения пайплайна
 
 ## Авторство
 Идея курса принадлежит Антону Бевзюку (@bevzuk). 
