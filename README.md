@@ -14,7 +14,7 @@
 * Pull request
 * Unit testing (модульное тестирование)
 * Test-driven development (разработка через тестирование)
-* Code review
+* Code review (ревью кода)
 * Парное программирование
 * Continuous Integration (непрерывная интеграция)
 * Continuous Delivery (непрерывная поставка)
@@ -108,4 +108,3 @@
 * Арсений Кельдышев
 * Светлана Кривенко
 * Сергей Леонов
-
