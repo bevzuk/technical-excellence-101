@@ -19,3 +19,7 @@ def text(change_test_dir):
 
 def test_has_header(text):
     assert '# Сказка про колобка' in text
+
+
+def test_has_subheader_bear(text):
+    assert '### 3.4 Медведь' in text
