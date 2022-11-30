@@ -19,6 +19,8 @@ footer: 'Technical Excellence 101 / Unit 4. Autotests'
 # Автотесты
 Автотест — это код, который автоматически проверяет, что код работает правильно с точки зрения пользователя.
 
+<img src="Images/Autotests_meme.png" width="400px"/>
+
 ---
 <!-- _class: invert -->
 # Упражнение. Прочитать тест
@@ -70,6 +72,8 @@ footer: 'Technical Excellence 101 / Unit 4. Autotests'
 # Сдвиг влево
 
 ![width:90%](Images/Shift%20left.png)
+
+<img src="Images/Shift_left_meme.png" width="400px"/>
 
 ---
 # Тестировщик vs QA
