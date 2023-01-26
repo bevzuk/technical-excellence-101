@@ -16,8 +16,11 @@ footer: 'Technical Excellence 101 / Unit 4. Autotests'
 1. Дебриф
 
 ---
-# Автотесты
+# Автотесты это ...
 Автотест — это код, который автоматически проверяет, что код работает правильно с точки зрения пользователя.
+
+---
+![bg height:100%](Images/Autotests_meme.png)
 
 ---
 <!-- _class: invert -->
@@ -70,6 +73,9 @@ footer: 'Technical Excellence 101 / Unit 4. Autotests'
 # Сдвиг влево
 
 ![width:90%](Images/Shift%20left.png)
+
+---
+![bg height:100%](Images/Shift_left_meme.png)
 
 ---
 # Тестировщик vs QA
