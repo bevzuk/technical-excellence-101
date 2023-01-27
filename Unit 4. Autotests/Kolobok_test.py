@@ -13,7 +13,7 @@ def change_test_dir(request):
 
 @pytest.fixture()
 def text(change_test_dir):
-    with open('./Kolobok.md', mode='r') as output_file:
+    with open('./Kolobok.md', mode='r', encoding="utf-8") as output_file:
         return output_file.read()
 
 
