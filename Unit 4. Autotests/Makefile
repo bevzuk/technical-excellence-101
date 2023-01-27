@@ -3,5 +3,5 @@ setup:
 	pip3 install markdown2 pytest
 
 test: setup
-	pytest
+	python3 -m pytest
 
