@@ -159,3 +159,4 @@ git commit -m "Описание изменений"*
 * [tproger.ru: Введение в Git: от установки до основных команд](https://tproger.ru/translations/beginner-git-cheatsheet/)
 * [hexlet: Бесплатный курс "Введение в Git"](https://ru.hexlet.io/courses/intro_to_git)
 * [Книга Pro Git](https://git-scm.com/book/ru/v2)
+* [Чёрт побери, Git!?!](https://dangitgit.com/ru)
