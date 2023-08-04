@@ -21,7 +21,13 @@ def test_has_header(text):
     assert '# Сказка про Колобка' in text
 
 def test_has_subheader_1(text):
-    assert '# 1. Как Колобок появился' in text
+    assert '## 1. Как Колобок появился' in text
+
+def test_has_subheader_2(text):
+    assert '## 2. Как Колобок убежал' in text
+
+def test_has_subheader_3_1(text):
+    assert '### 3.1 Заяц' in text
 
 def test_has_subheader_3_4(text):
     assert '### 3.4 Медведь' in text
