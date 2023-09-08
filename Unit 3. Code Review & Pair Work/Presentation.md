@@ -218,6 +218,7 @@ remote: error: At least 1 approving review is required by reviewers with write a
 
 ---
 # Материалы
+* [Ship / Show / Ask](https://martinfowler.com/articles/ship-show-ask.html)
 * [Как заставить ревьювера вашего кода буквально влюбиться в вас - перевод статьи Майкла Линча](https://technical-excellence.ru/wiki/CodeReviewLoveForAuthors.html)
 * [Парное программирование: Сергей Баранов](http://agilemindset.ru/парное-программирование/)
 * [On Pair Programming - Birgitta Böckeler](https://martinfowler.com/articles/on-pair-programming.html)
