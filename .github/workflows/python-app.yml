@@ -37,5 +37,4 @@ jobs:
     - name: Test with pytest
       run: |
         cd "Модуль 5. Автотесты и Test Driven Development" && make test && cd ..
-        cd "Модуль 6. Continuous Integration & Continuous Deployment (CI/CD)Модуль 6. Continuous Integration & Continuous Deployment (CI/CD)
-" && make test && cd ..
+        cd "Модуль 6. Continuous Integration & Continuous Deployment (CI/CD)Модуль 6. Continuous Integration & Continuous Deployment (CI/CD)" && make test && cd ..
