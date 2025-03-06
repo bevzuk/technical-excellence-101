@@ -42,8 +42,10 @@
       * Выберите папку Projects/technical-excellence-101
       * Нажмите Open или Select Folder
         ![](images/Open%20folder.png)
+      * Если увидите предупреждение о том, стоит ли доверять папке, выберите Yes ![](images/Trust%20folder%20warning.png)
     * В левой панельке Explorer вы должны увидеть структуру проекта
       ![](images/Project%20structure.png)
+      * Если увидели - вы справились, поздравляю!
 
 
 ## Структура курса
