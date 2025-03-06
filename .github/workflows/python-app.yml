@@ -24,7 +24,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest markdown2
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        cd Unit\ 5.\ CICD
+        cd "Модуль 5. Автотесты и Test Driven Development"
         rm -rf ./build
         mkdir ./build
         markdown2 Kolobok.md > ./build/Kolobok.html
@@ -36,5 +36,6 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        cd Unit\ 4.\ Autotests && make test && cd ..
-        cd Unit\ 5.\ CICD && make test && cd ..
+        cd "Модуль 5. Автотесты и Test Driven Development" && make test && cd ..
+        cd "Модуль 6. Continuous Integration & Continuous Deployment (CI/CD)Модуль 6. Continuous Integration & Continuous Deployment (CI/CD)
+" && make test && cd ..
