@@ -34,6 +34,7 @@
    $ cd Projects
 7. Склонируйте репозиторий. Выполните команду в консоли: git clone git@github.com:svkrivenko/neogenda-technical-excellence-101.git
 8. Откройте проект в VS Code
+   $ cd neogenda-technical-excellence-101/
    $ code .
 
 ## Структура курса
