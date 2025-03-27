@@ -28,3 +28,9 @@ def test_has_subheader_3_4(text):
 
 def test_has_narkoman(text):
     assert 'наркоман' in text
+
+def test_в_тексте_нет_коловбка(text):
+    assert 'коловбок' not in text
+
+def test_в_тексте_нет_заеца(text):
+    assert 'Заец' not in text
