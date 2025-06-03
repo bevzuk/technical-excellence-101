@@ -24,17 +24,25 @@
 2. Установите [git](https://git-scm.com/downloads)
 3. Проверьте, что git работает
     * Откройте Terminal в MacOS или Git Bash в Windows (в дальнейшем, если не узказано иное, команды выполняются в Terminal в MacOS и в Git Bash в Windows)
-    * Выполните команду `git --version`
+    * Выполните команду
+     ```bash
+    git --version
+     ```
     * Если вы увидели вывод `git version ...`, значит все в порядке, git установлен.
-4. Создайте папку, в которой вы будете работать, например `Projects`  
-      ```
-      cd ~
-      mkdir Projects
-      cd Projects
-      ```  
-5. Склонируйте репозиторий, выполнив команду   
-`git clone https://github.com/bevzuk/technical-excellence-101.git`
-6. Откройте локальный репозиторий в VS Code
+4. Сгенерируйте SSH ключ по инструкции https://git-scm.com/book/ru/v2/Git-на-сервере-Генерация-открытого-SSH-ключа  
+5. Добавьте публичный ключ SSH в профиль github https://github.com/settings/keys (New SSH key)
+6. Создайте папку, в которой вы будете работать, например `Projects`  
+    ```bash
+    cd ~
+    mkdir Projects
+    cd Projects
+    ```  
+7. Склонируйте репозиторий, выполнив команду   
+    ```bash
+    git clone https://github.com/bevzuk/technical-excellence-101.git
+    ```  
+    Если спросит `Are you sure you want to continue connecting (yes/no)?` - отвечайте yes
+8. Откройте локальный репозиторий в VS Code
     * Запустите VS Code
     * Откройте папку Projects/technical-excellence-101
       * Меню File -> Open Folder ... или 
@@ -46,6 +54,8 @@
     * В левой панельке Explorer вы должны увидеть структуру проекта
       ![](images/Project%20structure.png)
       * Если увидели - вы справились, поздравляю!
+9. В меню VS Code включите опцию `File -> AutoSave`
+10. Откройте терминал `Terminal -> New  Terminal`
 
 
 ## Структура курса
