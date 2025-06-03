@@ -56,6 +56,12 @@
       * Если увидели - вы справились, поздравляю!
 9. В меню VS Code включите опцию `File -> AutoSave`
 10. Откройте терминал `Terminal -> New  Terminal`
+11. Выполните команды в терминале, заменив имя и email на ваши
+    ```bash
+    git config --global user.name "John Doe" 
+    git config --global user.email johndoe@example.com
+    git config --global pull.rebase true
+    ```
 
 
 ## Структура курса
