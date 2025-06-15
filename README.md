@@ -18,6 +18,7 @@
 * Парное программирование
 * Continuous Integration (непрерывная интеграция)
 * Continuous Delivery (непрерывная поставка)
+* AI инструменты
 
 ## Подготовка
 1. Установите VS Code https://code.visualstudio.com
