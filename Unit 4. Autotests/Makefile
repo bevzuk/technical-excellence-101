@@ -1,7 +1,11 @@
+VENV = ../venv
+PYTHON = $(VENV)/bin/python3
+PIP = $(VENV)/bin/pip
+
 setup:
-	pip3 install --upgrade pip 
-	pip3 install markdown2 pytest
+	python3 -m venv $(VENV)
+	$(PIP) install --upgrade pip
+	$(PIP) install -r ../requirements.txt
 
 test: setup
-	python3 -m pytest
-
+	$(PYTHON) -m pytest
